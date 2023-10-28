@@ -16,6 +16,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 📗 Rodando a Aplicação (web)
 # Clone este repositório
+https://github.com/joseGjr/projeto-rock.git
 
 O site se inicia em tema dark , exibi de forma objetiva , suas funcionalidades e opções.
 ### 🚀 Tecnologias
