@@ -4,9 +4,10 @@
 💻 Projeto
 Projeto desenvolvido para aprimorar meus conhecimentos em Html , Css e JS.
 
-✅ Demonstração
-<img src="./assets/card.png" alt="">
+✅ Demonstração <br><br>
+<img src="./assets/card.png" alt=""><br><br>
 Ao acessar a página , os usuarios são recebidos com o tema dark. Porém para uma melhor expericia do usuário os mesmos podem alterar para o tema light, com apenas um click.
+
 <img src="./assets/cardLight.png" alt="">
 
 
