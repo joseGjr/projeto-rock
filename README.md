@@ -1,31 +1,59 @@
-🚀# projeto- mini site perfil🚀
+# 📌 Projeto Perfil Interativo
 
-🚧 Em andamento 🚧 
-💻 Projeto
-Projeto desenvolvido para aprimorar meus conhecimentos em Html , Css e JS.
+Este projeto é uma página de perfil interativa com um modo claro/escuro e links para redes sociais. Criado com HTML, CSS e JavaScript, é uma forma elegante de compartilhar informações e redes sociais.
 
-✅ Demonstração <br><br>
-<img src="./assets/card.png" alt=""><br><br>
-Ao acessar a página , os usuarios são recebidos com o tema dark. Porém para uma melhor expericia do usuário os mesmos podem alterar para o tema light, com apenas um click.
+## 🚀 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (modo escuro/claro dinâmico)
+- Ícones do Ionicons
+
+## 🎨 Funcionalidades
+
+- Alternância entre modo claro e escuro
+- Exibição de avatar dinâmica conforme o tema
+- Links para redes sociais e recursos
+
+## 📸 Demonstração
 
 <img src="./assets/cardLight.png" alt="">
 
+## 🔧 Como Executar o Projeto
 
-⚙ Pré-requisitos
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, [Node.js]. Além disto é bom ter um editor para trabalhar com o código como VSCode
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   ```
+2. Acesse o diretório do projeto:
+   ```bash
+   cd nome-do-repositorio
+   ```
+3. Abra o arquivo `index.html` no navegador.
 
-📗 Rodando a Aplicação (web)
-# Clone este repositório
-https://github.com/joseGjr/projeto-rock.git
+## 📄 Código Principal
 
-O site se inicia em tema dark , exibi de forma objetiva , suas funcionalidades e opções.
-### 🚀 Tecnologias
+```html
+<!-- Estrutura do switch para alternância de tema -->
+<div id="switch" onclick="toggleMode()">
+    <button></button>
+    <span></span>
+</div>
+```
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-- Html
-- CSS
-- JavaScript
+```js
+// Alternância de modo claro e escuro
+function toggleMode(){
+   const html = document.documentElement;
+   html.classList.toggle('light');
 
+   const img = document.querySelector(".profile img");
+   img.setAttribute('src', html.classList.contains('light') ? './assets/avatar-light.png' : './assets/avatar.png');
+}
+```
 
-Feito por José Jr.
+## 📌 Autor
+
+By [joseGjr](https://github.com/joseGjr)
+
 
